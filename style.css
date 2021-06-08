@@ -1,0 +1,43 @@
+:root {
+  --foreground: rgb(25, 25, 25);
+  --background: rgb(17, 171, 143);
+}
+
+html {
+  font-size: clamp(150%, calc(2.5vw + 100%), 200%);
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  margin: 0;
+  color: var(--foreground);
+  background: var(--background);
+}
+
+main {
+  max-width: 25rem;
+  margin: 0 auto;
+  padding: 0.5em;
+}
+
+.logo {
+  display: block;
+  margin: 3em auto;
+  width: 95%;
+}
+.logo .logo__inner {
+  fill: var(--foreground);
+}
+
+a {
+  color: var(--foreground);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.map {
+  width: 100%;
+}
